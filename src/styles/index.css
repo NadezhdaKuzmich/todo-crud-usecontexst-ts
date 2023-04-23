@@ -1,0 +1,130 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  color: #354f7b;
+  background: #c7dafaf7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.5vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1150px;
+  min-width: 340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.todo-wrapp {
+  max-width: 760px;
+  width: 100%;
+  padding: 40px 0 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: #f7f7fe;
+  box-shadow:  1px 4px 12px #9ba7b4;
+  padding: 45px 35px;
+  margin: 0 0 20px;
+  gap: 15px;
+}
+
+.list-container-title {
+  padding: 20px 34px;  
+  color: #57739f;
+}
+
+.todo-list {
+  margin: 20px 0 60px;
+}
+
+.todo-text{
+  text-align: justify;
+}
+
+.empty-list {
+  text-align: center;
+  color: #7f92be;
+  padding: 40px 0;
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 1px 2px 8px #9ba7b4;
+  background: #fff;
+  border-radius: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.8s easy-in-out;
+}
+
+.todo-box:hover{
+  background: #bfc0ff3d;
+}
+
+.done {
+  opacity: 0.7;
+  background: #e7f0ff;
+}
+
+.edit-todo {
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+.form-modal-add {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 65%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 60px 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.form-btn {
+  background: linear-gradient(90deg,#959ffe,#3cc0ff);
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  height: 52px;
+  box-shadow: 0 3px 5px 2px rgba(105, 160, 255, 0.3);
+}
